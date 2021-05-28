@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-
+import Result from '../components/Result'
 export default function Home() {
   return (
     <>
@@ -16,6 +16,8 @@ export default function Home() {
 
       {/* nav */}
       <Nav/>
+      {/* content */}
+      <Result />
 
     </>
   )
