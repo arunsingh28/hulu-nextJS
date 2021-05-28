@@ -5,11 +5,11 @@ const Header = () => {
     return (
         <header className="">
             <div>
-                <HeaderItem />
+                <HeaderItem title="home" Icon={HomeIcon} />
             </div>
 
             <Image
-                className="object-contain"
+                className=""
                 src="https://links.papareact.com/ua6" width="200" height="100" />
         </header>
     )
